@@ -3,6 +3,7 @@ Created on Oct 20, 2017
 
 @author: sisba01
 '''
+from builtins import range
 
 def max(a, b):
     return a if a>b else b;
