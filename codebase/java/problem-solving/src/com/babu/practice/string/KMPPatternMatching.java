@@ -4,6 +4,11 @@ import java.util.Arrays;
 
 public class KMPPatternMatching {
 	
+	/**
+	 * This API computes LPS (Longest proper Prefix that is also a Suffix for the given pattern)
+	 * @param pattern
+	 * @return
+	 */
 	private static int[] computeLPS(char[] pattern) {
 		int len = 0;
 		int i = 1;

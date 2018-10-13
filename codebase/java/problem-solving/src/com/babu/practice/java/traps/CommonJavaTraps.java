@@ -37,15 +37,21 @@ public class CommonJavaTraps {
 		final String s1 = "Hello String";
 		final String s2 = "Hello String";
 		System.out.println(s1==s2);
+		
+		String a = new String("Hello");
+		String b = new String("Hello");
+		System.out.println(a==b);
 	}
 	
 	public static void main(String [] args) {
+		
+		
 		/*int n = -3;
 		System.out.println("is Number " + n + " odd: " + isOdd(n));*/
 		
 		//longDivision();
 		
-		stringInterningCheck();
+		//stringInterningCheck();
 	}
 	
 }
