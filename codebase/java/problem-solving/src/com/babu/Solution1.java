@@ -6,14 +6,14 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class Solution1 {
 	
 	public void print(String s){
 		System.out.println(s);
 	}
 
     public static void main(String[] args) {
-    	Solution sol = new Solution();
+    	Solution1 sol = new Solution1();
         BinaryTree bt = sol.new BinaryTree();
         bt.root = sol.new Node(50);
         bt.root.left = sol.new Node(30);
