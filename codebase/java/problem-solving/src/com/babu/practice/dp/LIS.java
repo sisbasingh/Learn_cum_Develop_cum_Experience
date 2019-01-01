@@ -44,7 +44,7 @@ public class LIS {
 		for(int i=0;i<=curIndex;i++)
 			System.out.print(list[i] + " ");
 		System.out.println();
-		return curIndex + 1;
+		return curIndex + 1; 
 	}
 	
 	private static int lisLengthUsingOn2(int n, int [] A) {
