@@ -4,6 +4,26 @@ import java.util.Scanner;
 
 public class BitsUtil {
 	
+	/**
+	 * Efficient approach to count number of set bits
+	 * The loop runs equals to the number of set bits in the n
+	 * @param n
+	 * @return
+	 */
+	private int setBitCounts(int n){
+        int setBitCounts = 0;
+        while(n>0){
+            n &= n-1;
+            setBitCounts++;
+        }
+        return setBitCounts;
+    }
+	
+	/**
+	 * Without using bitwise operators
+	 * @param n
+	 * @return
+	 */
 	private static long getRightmostSetBit(long n) {
 		int k = (int)(Math.log(n)/Math.log(2));
 		System.out.println("K: " + k);
