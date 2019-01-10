@@ -1,0 +1,28 @@
+
+
+2017-04-24 22:59:41,234 [main] INFO [CryptoService] - init() started
+2017-04-24 22:59:41,234 [main] INFO [CryptoService] - Base Directory : D:\EclipseWorkSpace\DSCryptoService\dscrypto
+2017-04-24 22:59:41,234 [main] INFO [CryptoService] - LOG4J Property file cofigured to : D:\EclipseWorkSpace\DSCryptoService\dscrypto/../DSCryptoService/conf/log4j.properties
+2017-04-24 22:59:41,234 [main] INFO [CryptoService] - Java Version Used: 1.8.0_91
+2017-04-24 22:59:41,250 [main] INFO [CryptoService] - Configured port 2080 for jetty
+2017-04-24 22:59:41,250 [main] INFO [CryptoService] - RSA Private key configured to : D:\EclipseWorkSpace\DSCryptoService\dscrypto/../DSCryptoService/keys/RSAPrivateKey.jwk
+2017-04-24 22:59:41,250 [main] INFO [CryptoService] - RSA Public key configured to : D:\EclipseWorkSpace\DSCryptoService\dscrypto/../DSCryptoService/keys/RSAPublicKey.jwk
+2017-04-24 22:59:41,250 [main] INFO [CryptoService] - Reading RSA Public and Private keys...
+2017-04-24 22:59:41,294 [main] INFO [CryptoService] - RSA Private Key initialized
+2017-04-24 22:59:41,314 [main] INFO [CryptoService] - RSA Decrypter initialized
+2017-04-24 22:59:41,314 [main] INFO [CryptoService] - RSA Public Key initialized
+2017-04-24 22:59:41,315 [main] INFO [CryptoService] - RSA Encrypter initialized
+2017-04-24 22:59:41,316 [main] INFO [CryptoService] - Initialization done
+2017-04-24 23:25:52,447 [main] INFO [CryptoService] - init() started
+2017-04-24 23:25:52,447 [main] INFO [CryptoService] - Base Directory : D:\EclipseWorkSpace\DSCryptoService\dscrypto
+2017-04-24 23:25:52,447 [main] INFO [CryptoService] - LOG4J Property file cofigured to : D:\EclipseWorkSpace\DSCryptoService\dscrypto/../DSCryptoService/conf/log4j.properties
+2017-04-24 23:25:52,447 [main] INFO [CryptoService] - Java Version Used: 1.8.0_91
+2017-04-24 23:25:52,464 [main] INFO [CryptoService] - Configured port 2080 for jetty
+2017-04-24 23:25:52,464 [main] INFO [CryptoService] - RSA Private key configured to : D:\EclipseWorkSpace\DSCryptoService\dscrypto/../DSCryptoService/keys/RSAPrivateKey.jwk
+2017-04-24 23:25:52,464 [main] INFO [CryptoService] - RSA Public key configured to : D:\EclipseWorkSpace\DSCryptoService\dscrypto/../DSCryptoService/keys/RSAPublicKey.jwk
+2017-04-24 23:25:52,464 [main] INFO [CryptoService] - Reading RSA Public and Private keys...
+2017-04-24 23:25:52,476 [main] INFO [CryptoService] - RSA Private Key initialized
+2017-04-24 23:25:52,482 [main] INFO [CryptoService] - RSA Decrypter initialized
+2017-04-24 23:25:52,482 [main] INFO [CryptoService] - RSA Public Key initialized
+2017-04-24 23:25:52,482 [main] INFO [CryptoService] - RSA Encrypter initialized
+2017-04-24 23:25:52,484 [main] INFO [CryptoService] - Initialization done

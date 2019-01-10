@@ -12,13 +12,23 @@ public class Permutations {
 	
 	private static void permuteUnOrdered(char[] s, int i) {
 		if(i == s.length) {
-			System.out.println(Arrays.toString(s)); 
+			System.out.println(Arrays.toString(s));
 		} else {
 			for(int j=i;j<s.length;j++) {
 				swap(s, i, j);
 				permuteUnOrdered(s, i+1);
 				swap(s, i, j);
 			}
+		}
+	}
+	
+	private static void permuteUnOrdered2(String s, String prefix) {
+		if(s.length() == 0) {
+			System.out.println(prefix);
+			return;
+		}
+		for(int i=0;i<s.length();i++) {
+			permuteUnOrdered2(s.substring(0, i) + s.substring(i+1), s.substring(i,i+1) + prefix);
 		}
 	}
 	
@@ -73,7 +83,8 @@ public class Permutations {
 	public static void main(String[] args) {
 		char[] a = {'B', 'C', 'A'};
 		//permuteUnOrdered(a, 0);
-		permuteSortedOrder(a);
+		//permuteSortedOrder(a);
+		permuteUnOrdered2("abcd", "");
 	}
 
 }

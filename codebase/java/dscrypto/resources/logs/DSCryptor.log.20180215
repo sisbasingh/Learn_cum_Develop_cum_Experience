@@ -1,0 +1,165 @@
+2018-02-15 12:45:49,309 [main] INFO [CryptoService] - LOG4J Property file cofigured to : ../DSCryptoService/conf/log4j.properties
+2018-02-15 12:45:49,311 [main] INFO [CryptoService] - Service logger initialized successfully
+2018-02-15 12:45:49,311 [main] INFO [CryptoService] - init() started
+2018-02-15 12:45:49,312 [main] INFO [CryptoService] - Java Version Used: 1.8.0_73
+2018-02-15 12:45:49,312 [main] INFO [CryptoService] - initializing properties from config file: ../DSCryptoService/conf/DSCryptoServiceConfig.properties
+2018-02-15 12:45:49,312 [main] INFO [CryptoService] - Reading DS Crypto properties file: ../DSCryptoService/conf/DSCryptoServiceConfig.properties
+2018-02-15 12:45:49,312 [main] INFO [CryptoService] - Read properties file successfully
+2018-02-15 12:45:49,312 [main] INFO [CryptoService] - Initializing Server config ...
+2018-02-15 12:45:49,341 [main] INFO [CryptoService] - Configured port 3080 for jetty
+2018-02-15 12:45:49,341 [main] INFO [CryptoService] - Configuring SSL now...
+2018-02-15 12:45:49,341 [main] INFO [CryptoService] - Configured SSL with keystore only
+2018-02-15 12:45:49,341 [main] INFO [CryptoService] - Configured SSL Successfully
+2018-02-15 12:45:49,341 [main] INFO [CryptoService] - Get JWK Public Key URI configured to : /tds2/dscrypto/getpublickey
+2018-02-15 12:45:49,341 [main] INFO [CryptoService] - Get Encryption URI configured to : /tds2/dscrypto/encrypt
+2018-02-15 12:45:49,341 [main] INFO [CryptoService] - Get Decryption URI configured to : /tds2/dscrypto/decrypt
+2018-02-15 12:45:49,341 [main] INFO [CryptoService] - Create New Key-pair URI configured to : /tds2/dscrypto/createjwkpair
+2018-02-15 12:45:49,341 [main] INFO [CryptoService] - RSA Private key configured to : ../DSCryptoService/keys/RSAPrivateKey.jwk
+2018-02-15 12:45:49,341 [main] INFO [CryptoService] - RSA Public key configured to : ../DSCryptoService/keys/RSAPublicKey.jwk
+2018-02-15 12:45:49,342 [main] INFO [CryptoService] - EC Private key configured to : ../DSCryptoService/keys/MDFHMPrivateKey.jwk
+2018-02-15 12:45:49,342 [main] INFO [CryptoService] - EC Public key configured to : ../DSCryptoService/keys/MDFHMPublicKey.jwk
+2018-02-15 12:45:49,342 [main] INFO [CryptoService] - Reading Crypto Public and Private keys...
+2018-02-15 12:45:49,452 [main] INFO [CryptoService] - RSA Private Key initialized
+2018-02-15 12:45:49,485 [main] INFO [CryptoService] - RSA Decrypter initialized
+2018-02-15 12:45:49,486 [main] INFO [CryptoService] - RSA Public Key initialized
+2018-02-15 12:45:49,487 [main] INFO [CryptoService] - RSA Encrypter initialized
+2018-02-15 12:45:49,488 [main] INFO [CryptoService] - initing key maps ...
+2018-02-15 12:45:49,488 [main] INFO [CryptoService] - Initializing key-maps successfully
+2018-02-15 12:45:49,488 [main] INFO [CryptoService] - Initialization done
+2018-02-15 12:45:49,506 [main] INFO [CryptoService] - Get Public Key Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/getpublickey
+2018-02-15 12:45:49,506 [main] INFO [CryptoService] - JWK Encryption Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/encrypt
+2018-02-15 12:45:49,506 [main] INFO [CryptoService] - JWK Decryption Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/decrypt
+2018-02-15 12:45:49,506 [main] INFO [CryptoService] - Create new JWK key-pair Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/createjwkpair
+2018-02-15 12:45:49,506 [main] INFO [CryptoService] - DS Crypto Service Started
+2018-02-15 12:47:48,471 [main] INFO [CryptoService] - LOG4J Property file cofigured to : ../DSCryptoService/conf/log4j.properties
+2018-02-15 12:47:48,471 [main] INFO [CryptoService] - Service logger initialized successfully
+2018-02-15 12:47:48,471 [main] INFO [CryptoService] - init() started
+2018-02-15 12:47:48,471 [main] INFO [CryptoService] - Java Version Used: 1.8.0_73
+2018-02-15 12:47:48,471 [main] INFO [CryptoService] - initializing properties from config file: ../DSCryptoService/conf/DSCryptoServiceConfig.properties
+2018-02-15 12:47:48,471 [main] INFO [CryptoService] - Reading DS Crypto properties file: ../DSCryptoService/conf/DSCryptoServiceConfig.properties
+2018-02-15 12:47:48,472 [main] INFO [CryptoService] - Read properties file successfully
+2018-02-15 12:47:48,472 [main] INFO [CryptoService] - Initializing Server config ...
+2018-02-15 12:47:48,491 [main] INFO [CryptoService] - Configured port 3080 for jetty
+2018-02-15 12:47:48,491 [main] INFO [CryptoService] - Configuring SSL now...
+2018-02-15 12:47:48,492 [main] INFO [CryptoService] - Configured SSL with keystore only
+2018-02-15 12:47:48,492 [main] INFO [CryptoService] - Configured SSL Successfully
+2018-02-15 12:47:48,492 [main] INFO [CryptoService] - Get JWK Public Key URI configured to : /tds2/dscrypto/getpublickey
+2018-02-15 12:47:48,492 [main] INFO [CryptoService] - Get Encryption URI configured to : /tds2/dscrypto/encrypt
+2018-02-15 12:47:48,492 [main] INFO [CryptoService] - Get Decryption URI configured to : /tds2/dscrypto/decrypt
+2018-02-15 12:47:48,492 [main] INFO [CryptoService] - Create New Key-pair URI configured to : /tds2/dscrypto/createjwkpair
+2018-02-15 12:47:48,492 [main] INFO [CryptoService] - RSA Private key configured to : ../DSCryptoService/keys/RSAPrivateKey.jwk
+2018-02-15 12:47:48,492 [main] INFO [CryptoService] - RSA Public key configured to : ../DSCryptoService/keys/RSAPublicKey.jwk
+2018-02-15 12:47:48,492 [main] INFO [CryptoService] - EC Private key configured to : ../DSCryptoService/keys/MDFHMPrivateKey.jwk
+2018-02-15 12:47:48,492 [main] INFO [CryptoService] - EC Public key configured to : ../DSCryptoService/keys/MDFHMPublicKey.jwk
+2018-02-15 12:47:48,492 [main] INFO [CryptoService] - Reading Crypto Public and Private keys...
+2018-02-15 12:47:48,549 [main] INFO [CryptoService] - RSA Private Key initialized
+2018-02-15 12:47:48,567 [main] INFO [CryptoService] - RSA Decrypter initialized
+2018-02-15 12:47:48,567 [main] INFO [CryptoService] - RSA Public Key initialized
+2018-02-15 12:47:48,568 [main] INFO [CryptoService] - RSA Encrypter initialized
+2018-02-15 12:47:48,570 [main] INFO [CryptoService] - initing key maps ...
+2018-02-15 12:47:48,570 [main] INFO [CryptoService] - Initializing key-maps successfully
+2018-02-15 12:47:48,570 [main] INFO [CryptoService] - Initialization done
+2018-02-15 12:47:48,587 [main] INFO [CryptoService] - Get Public Key Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/getpublickey
+2018-02-15 12:47:48,587 [main] INFO [CryptoService] - JWK Encryption Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/encrypt
+2018-02-15 12:47:48,587 [main] INFO [CryptoService] - JWK Decryption Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/decrypt
+2018-02-15 12:47:48,587 [main] INFO [CryptoService] - Create new JWK key-pair Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/createjwkpair
+2018-02-15 12:47:48,587 [main] INFO [CryptoService] - DS Crypto Service Started
+2018-02-15 13:09:44,762 [main] INFO [CryptoService] - LOG4J Property file cofigured to : ../DSCryptoService/conf/log4j.properties
+2018-02-15 13:09:44,763 [main] INFO [CryptoService] - Service logger initialized successfully
+2018-02-15 13:09:44,763 [main] INFO [CryptoService] - init() started
+2018-02-15 13:09:44,763 [main] INFO [CryptoService] - Java Version Used: 1.8.0_73
+2018-02-15 13:09:44,763 [main] INFO [CryptoService] - initializing properties from config file: ../DSCryptoService/conf/DSCryptoServiceConfig.properties
+2018-02-15 13:09:44,763 [main] INFO [CryptoService] - Reading DS Crypto properties file: ../DSCryptoService/conf/DSCryptoServiceConfig.properties
+2018-02-15 13:09:44,764 [main] INFO [CryptoService] - Read properties file successfully
+2018-02-15 13:09:44,764 [main] INFO [CryptoService] - Initializing Server config ...
+2018-02-15 13:09:44,789 [main] INFO [CryptoService] - Configured port 3080 for jetty
+2018-02-15 13:09:44,789 [main] INFO [CryptoService] - Configuring SSL now...
+2018-02-15 13:09:44,789 [main] INFO [CryptoService] - Configured SSL with keystore only
+2018-02-15 13:09:44,789 [main] INFO [CryptoService] - Configured SSL Successfully
+2018-02-15 13:09:44,789 [main] INFO [CryptoService] - Get JWK Public Key URI configured to : /tds2/dscrypto/getpublickey
+2018-02-15 13:09:44,789 [main] INFO [CryptoService] - Get Encryption URI configured to : /tds2/dscrypto/encrypt
+2018-02-15 13:09:44,789 [main] INFO [CryptoService] - Get Decryption URI configured to : /tds2/dscrypto/decrypt
+2018-02-15 13:09:44,790 [main] INFO [CryptoService] - Create New Key-pair URI configured to : /tds2/dscrypto/createjwkpair
+2018-02-15 13:09:44,790 [main] INFO [CryptoService] - RSA Private key configured to : ../DSCryptoService/keys/RSAPrivateKey.jwk
+2018-02-15 13:09:44,790 [main] INFO [CryptoService] - RSA Public key configured to : ../DSCryptoService/keys/RSAPublicKey.jwk
+2018-02-15 13:09:44,790 [main] INFO [CryptoService] - EC Private key configured to : ../DSCryptoService/keys/MDFHMPrivateKey.jwk
+2018-02-15 13:09:44,790 [main] INFO [CryptoService] - EC Public key configured to : ../DSCryptoService/keys/MDFHMPublicKey.jwk
+2018-02-15 13:09:44,790 [main] INFO [CryptoService] - Reading Crypto Public and Private keys...
+2018-02-15 13:09:44,854 [main] INFO [CryptoService] - RSA Private Key initialized
+2018-02-15 13:09:44,875 [main] INFO [CryptoService] - RSA Decrypter initialized
+2018-02-15 13:09:44,875 [main] INFO [CryptoService] - RSA Public Key initialized
+2018-02-15 13:09:44,876 [main] INFO [CryptoService] - RSA Encrypter initialized
+2018-02-15 13:09:44,878 [main] INFO [CryptoService] - initing key maps ...
+2018-02-15 13:09:44,878 [main] INFO [CryptoService] - Initializing key-maps successfully
+2018-02-15 13:09:44,878 [main] INFO [CryptoService] - Initialization done
+2018-02-15 13:09:44,896 [main] INFO [CryptoService] - Get Public Key Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/getpublickey
+2018-02-15 13:09:44,896 [main] INFO [CryptoService] - JWK Encryption Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/encrypt
+2018-02-15 13:09:44,896 [main] INFO [CryptoService] - JWK Decryption Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/decrypt
+2018-02-15 13:09:44,896 [main] INFO [CryptoService] - Create new JWK key-pair Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/createjwkpair
+2018-02-15 13:09:44,896 [main] INFO [CryptoService] - DS Crypto Service Started
+2018-02-15 13:11:02,059 [main] INFO [CryptoService] - LOG4J Property file cofigured to : ../DSCryptoService/conf/log4j.properties
+2018-02-15 13:11:02,060 [main] INFO [CryptoService] - Service logger initialized successfully
+2018-02-15 13:11:02,060 [main] INFO [CryptoService] - init() started
+2018-02-15 13:11:02,060 [main] INFO [CryptoService] - Java Version Used: 1.8.0_73
+2018-02-15 13:11:02,060 [main] INFO [CryptoService] - initializing properties from config file: ../DSCryptoService/conf/DSCryptoServiceConfig.properties
+2018-02-15 13:11:02,060 [main] INFO [CryptoService] - Reading DS Crypto properties file: ../DSCryptoService/conf/DSCryptoServiceConfig.properties
+2018-02-15 13:11:02,061 [main] INFO [CryptoService] - Read properties file successfully
+2018-02-15 13:11:02,061 [main] INFO [CryptoService] - Initializing Server config ...
+2018-02-15 13:11:02,083 [main] INFO [CryptoService] - Configured port 3080 for jetty
+2018-02-15 13:11:02,083 [main] INFO [CryptoService] - Configuring SSL now...
+2018-02-15 13:11:02,083 [main] INFO [CryptoService] - Configured SSL with keystore only
+2018-02-15 13:11:02,083 [main] INFO [CryptoService] - Configured SSL Successfully
+2018-02-15 13:11:02,083 [main] INFO [CryptoService] - Get JWK Public Key URI configured to : /tds2/dscrypto/getpublickey
+2018-02-15 13:11:02,083 [main] INFO [CryptoService] - Get Encryption URI configured to : /tds2/dscrypto/encrypt
+2018-02-15 13:11:02,084 [main] INFO [CryptoService] - Get Decryption URI configured to : /tds2/dscrypto/decrypt
+2018-02-15 13:11:02,084 [main] INFO [CryptoService] - Create New Key-pair URI configured to : /tds2/dscrypto/createjwkpair
+2018-02-15 13:11:02,084 [main] INFO [CryptoService] - RSA Private key configured to : ../DSCryptoService/keys/RSAPrivateKey.jwk
+2018-02-15 13:11:02,084 [main] INFO [CryptoService] - RSA Public key configured to : ../DSCryptoService/keys/RSAPublicKey.jwk
+2018-02-15 13:11:02,084 [main] INFO [CryptoService] - EC Private key configured to : ../DSCryptoService/keys/MDFHMPrivateKey.jwk
+2018-02-15 13:11:02,084 [main] INFO [CryptoService] - EC Public key configured to : ../DSCryptoService/keys/MDFHMPublicKey.jwk
+2018-02-15 13:11:02,084 [main] INFO [CryptoService] - Reading Crypto Public and Private keys...
+2018-02-15 13:11:02,141 [main] INFO [CryptoService] - RSA Private Key initialized
+2018-02-15 13:11:02,159 [main] INFO [CryptoService] - RSA Decrypter initialized
+2018-02-15 13:11:02,159 [main] INFO [CryptoService] - RSA Public Key initialized
+2018-02-15 13:11:02,160 [main] INFO [CryptoService] - RSA Encrypter initialized
+2018-02-15 13:11:02,161 [main] INFO [CryptoService] - initing key maps ...
+2018-02-15 13:11:02,161 [main] INFO [CryptoService] - Initializing key-maps successfully
+2018-02-15 13:11:02,161 [main] INFO [CryptoService] - Initialization done
+2018-02-15 13:11:02,176 [main] INFO [CryptoService] - Get Public Key Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/getpublickey
+2018-02-15 13:11:02,176 [main] INFO [CryptoService] - JWK Encryption Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/encrypt
+2018-02-15 13:11:02,176 [main] INFO [CryptoService] - JWK Decryption Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/decrypt
+2018-02-15 13:11:02,176 [main] INFO [CryptoService] - Create new JWK key-pair Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/createjwkpair
+2018-02-15 13:11:02,176 [main] INFO [CryptoService] - DS Crypto Service Started
+2018-02-15 13:16:38,713 [main] INFO [CryptoService] - LOG4J Property file cofigured to : ../DSCryptoService/conf/log4j.properties
+2018-02-15 13:16:38,714 [main] INFO [CryptoService] - Service logger initialized successfully
+2018-02-15 13:16:38,714 [main] INFO [CryptoService] - init() started
+2018-02-15 13:16:38,714 [main] INFO [CryptoService] - Java Version Used: 1.8.0_73
+2018-02-15 13:16:38,714 [main] INFO [CryptoService] - initializing properties from config file: ../DSCryptoService/conf/DSCryptoServiceConfig.properties
+2018-02-15 13:16:38,714 [main] INFO [CryptoService] - Reading DS Crypto properties file: ../DSCryptoService/conf/DSCryptoServiceConfig.properties
+2018-02-15 13:16:38,715 [main] INFO [CryptoService] - Read properties file successfully
+2018-02-15 13:16:38,715 [main] INFO [CryptoService] - Initializing Server config ...
+2018-02-15 13:16:38,743 [main] INFO [CryptoService] - Configured port 3080 for jetty
+2018-02-15 13:16:38,743 [main] INFO [CryptoService] - Configuring SSL now...
+2018-02-15 13:16:38,744 [main] INFO [CryptoService] - Configured SSL with keystore only
+2018-02-15 13:16:38,744 [main] INFO [CryptoService] - Configured SSL Successfully
+2018-02-15 13:16:38,744 [main] INFO [CryptoService] - Get JWK Public Key URI configured to : /tds2/dscrypto/getpublickey
+2018-02-15 13:16:38,744 [main] INFO [CryptoService] - Get Encryption URI configured to : /tds2/dscrypto/encrypt
+2018-02-15 13:16:38,744 [main] INFO [CryptoService] - Get Decryption URI configured to : /tds2/dscrypto/decrypt
+2018-02-15 13:16:38,744 [main] INFO [CryptoService] - Create New Key-pair URI configured to : /tds2/dscrypto/createjwkpair
+2018-02-15 13:16:38,746 [main] INFO [CryptoService] - RSA Private key configured to : ../DSCryptoService/keys/RSAPrivateKey.jwk
+2018-02-15 13:16:38,746 [main] INFO [CryptoService] - RSA Public key configured to : ../DSCryptoService/keys/RSAPublicKey.jwk
+2018-02-15 13:16:38,746 [main] INFO [CryptoService] - EC Private key configured to : ../DSCryptoService/keys/MDFHMPrivateKey.jwk
+2018-02-15 13:16:38,746 [main] INFO [CryptoService] - EC Public key configured to : ../DSCryptoService/keys/MDFHMPublicKey.jwk
+2018-02-15 13:16:38,746 [main] INFO [CryptoService] - Reading Crypto Public and Private keys...
+2018-02-15 13:16:38,816 [main] INFO [CryptoService] - RSA Private Key initialized
+2018-02-15 13:16:38,845 [main] INFO [CryptoService] - RSA Decrypter initialized
+2018-02-15 13:16:38,846 [main] INFO [CryptoService] - RSA Public Key initialized
+2018-02-15 13:16:38,847 [main] INFO [CryptoService] - RSA Encrypter initialized
+2018-02-15 13:16:38,848 [main] INFO [CryptoService] - initing key maps ...
+2018-02-15 13:16:38,849 [main] INFO [CryptoService] - Initializing key-maps successfully
+2018-02-15 13:16:38,849 [main] INFO [CryptoService] - Initialization done
+2018-02-15 13:16:38,904 [main] INFO [CryptoService] - Get Public Key Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/getpublickey
+2018-02-15 13:16:38,904 [main] INFO [CryptoService] - JWK Encryption Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/encrypt
+2018-02-15 13:16:38,904 [main] INFO [CryptoService] - JWK Decryption Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/decrypt
+2018-02-15 13:16:38,904 [main] INFO [CryptoService] - Create new JWK key-pair Service URL Configured to: https://155.35.143.247:3080/tds2/dscrypto/createjwkpair
+2018-02-15 13:16:38,904 [main] INFO [CryptoService] - DS Crypto Service Started

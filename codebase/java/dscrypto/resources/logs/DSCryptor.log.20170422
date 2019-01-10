@@ -1,0 +1,14 @@
+
+
+2017-04-22 19:57:43,251 [main] INFO [App] - init() started
+2017-04-22 19:57:43,251 [main] INFO [App] - LOG4J Property file cofigured to : D:\EclipseWorkSpace\DSCryptoService\dscrypto/../DSCryptoService/conf/log4j.properties
+2017-04-22 19:57:43,251 [main] INFO [App] - Base Directory : D:\EclipseWorkSpace\DSCryptoService\dscrypto initialized
+2017-04-22 19:57:43,267 [main] INFO [App] - Configured port 2080 for jetty
+2017-04-22 19:57:43,267 [main] INFO [App] - RSA Private key configured to : D:\EclipseWorkSpace\DSCryptoService\dscrypto/../DSCryptoService/keys/RSAPrivateKey.jwk
+2017-04-22 19:57:43,268 [main] INFO [App] - RSA Public key configured to : D:\EclipseWorkSpace\DSCryptoService\dscrypto/../DSCryptoService/keys/RSAPublicKey.jwk
+2017-04-22 19:57:43,268 [main] INFO [App] - Reading RSA Public and Private keys...
+2017-04-22 19:57:43,328 [main] INFO [App] - RSA Private Key initialized
+2017-04-22 19:57:43,346 [main] INFO [App] - RSA Decrypter initialized
+2017-04-22 19:57:43,347 [main] INFO [App] - RSA Public Key initialized
+2017-04-22 19:57:43,348 [main] INFO [App] - RSA Encrypter initialized
+2017-04-22 19:57:43,348 [main] INFO [App] - Initialization done
