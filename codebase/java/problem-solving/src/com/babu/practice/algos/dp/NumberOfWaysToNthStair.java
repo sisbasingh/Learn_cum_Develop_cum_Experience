@@ -17,7 +17,7 @@ public class NumberOfWaysToNthStair {
 	
 	private static int spaceEfficientUsingDP(int n, int k) {
 		int [] DP = new int[n+1];
-		//For 0th stair only one way : don't climb any stair
+		//For 0th stair only one way : don't climb any stair, we are already there
 		DP[0] = 1;
 		for(int i=1;i<=n;i++) {
 			for(int j=1;j<=k && i-j>=0 ;j++) {

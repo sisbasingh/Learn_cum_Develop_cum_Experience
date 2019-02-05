@@ -42,7 +42,7 @@ public class RegexRegexMatch {
 			}
 		}
 		
-		printDP(dp, m, n);
+		//printDP(dp, m, n);
 		
 		return dp[m][n];
 		
@@ -73,8 +73,11 @@ public class RegexRegexMatch {
 	
 	public static void main(String[] args) {
 		RegexRegexMatch regexMatch = new RegexRegexMatch();
-		String rx1 = "*****b?";
-		String rx2 = "b***?c";
+		/*String rx1 = "*****b?";
+		String rx2 = "b***?c";*/
+		
+		String rx1 = "xyzcda*cdab?cd";
+		String rx2 = "*xcd";
 		
 		System.out.println(regexMatch.isRegexMatch(rx1, rx2));
 	}

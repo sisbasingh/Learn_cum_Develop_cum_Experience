@@ -1,5 +1,6 @@
 package com.babu.practice.algos;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -51,6 +52,42 @@ public class MedianInTwoSortedArrays {
 
 	}
 
+	
+	public double findMedianForUnequalLength(List<Integer> a, List<Integer> b) {
+		if(a.size() > b.size()) {
+			List<Integer> temp = a;
+			a = b;
+			b = temp;
+		}
+		
+		int s = 0, e = a.size();
+		//Final median position
+		int n = (a.size() + b.size() + 1)/2;
+		
+		while(s <= e) {
+			int partitionA = s + (e-s)/2;
+			int partitionB = n-partitionA;
+			
+			int leftMaxA = (partitionA == 0?Integer.MIN_VALUE:a.get(partitionA-1));
+			int rightMinA = (partitionA == a.size()?Integer.MAX_VALUE:a.get(partitionA));
+			
+			int leftMaxB = (partitionB == 0?Integer.MIN_VALUE:b.get(partitionB-1));
+			int rightMinB = (partitionB == b.size()?Integer.MAX_VALUE:b.get(partitionB));
+			
+			if(leftMaxA <= rightMinB && leftMaxB <= rightMinA) {
+				if((a.size() + b.size())%2 == 0) {
+					return ((double)(Math.max(leftMaxA, leftMaxB)) + Math.min(rightMinA, rightMinB))/2;
+				}
+				return (double)Math.max(leftMaxA, leftMaxB);
+			} else if(leftMaxA > rightMinB) {
+				e = partitionA - 1;
+			} else {
+				s = partitionA + 1;
+			}
+		}
+		return (-1);
+	}
+	
 	public double findMedianSortedArrays(final List<Integer> a, final List<Integer> b) {
 		if (a.isEmpty()) {
 			if (b.size() % 2 != 0)
@@ -69,7 +106,9 @@ public class MedianInTwoSortedArrays {
 		if (a.size() == b.size()) {
 			return findMedianForEqualLength(a, b, a.size());
 		} else {
-			int i = 0, j = 0;
+			return findMedianForUnequalLength(a, b);
+			
+			/*int i = 0, j = 0;
 			int n = (a.size() + b.size());
 			int k = n / 2 + 1;
 			int mid1 = 0, mid2 = 0;
@@ -101,7 +140,7 @@ public class MedianInTwoSortedArrays {
 				return ((double)mid1 + mid2) / 2;
 			} else {
 				return mid2;
-			}
+			}*/
 		}
 
 	}
