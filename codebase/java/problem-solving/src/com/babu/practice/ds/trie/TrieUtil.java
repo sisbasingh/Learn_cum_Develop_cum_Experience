@@ -52,6 +52,10 @@ public class TrieUtil {
     
     class TrieNode {
         int count;
+        /**
+         * NOTE: Map<Character, TrieNode> can be used instead of the array to save the space (in case only few characters are being used)
+         * and to support more generic charactes (e.g. including lowercase/uppercase or any other characters)
+         */
         TrieNode[] alphabets;
         
         public TrieNode() {

@@ -55,7 +55,7 @@ public class Parking {
 		if(freeSlots.get(v.getSize()).size() > 0) {
 			availSlot = freeSlots.get(v.getSize()).remove(0);
 		} else {
-			//Find just next greate slot for efficiency
+			//Find just next greater slot for efficiency
 			Size curSize = v.getSize();
 			for(Size size : freeSlots.keySet()) {
 				if(!freeSlots.get(size).isEmpty() && size.compareTo(v.getSize()) > 0 && size.compareTo(curSize) < 0) {

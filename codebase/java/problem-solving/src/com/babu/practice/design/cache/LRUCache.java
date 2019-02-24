@@ -1,4 +1,4 @@
-package com.babu.practice.cache;
+package com.babu.practice.design.cache;
 
 import java.util.HashMap;
 

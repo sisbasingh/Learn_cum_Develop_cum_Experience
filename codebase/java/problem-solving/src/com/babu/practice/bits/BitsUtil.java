@@ -70,7 +70,8 @@ public class BitsUtil {
 		System.out.println("N: " + n + "\t Closeset to N: " + closestIntWithSameSetBits(n));*/
 		
 		//test();
-		System.out.println(getRightmostSetBit(74));
+		//System.out.println(getRightmostSetBit(74));
+		System.out.println(closestIntWithSameSetBits(12));
 	}
 
 }
