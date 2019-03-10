@@ -1,4 +1,4 @@
-package com.babu.practice.algos;
+package com.babu.practice.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
